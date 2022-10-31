@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -13,7 +13,7 @@ body {
 }
 
 .header 
-img {
+.img-matrix {
   width: 100%;
 }
 
@@ -75,7 +75,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+.add-item-descr,
 label[for='new-task'] {
   color: #333;
   font-weight: 700;
@@ -114,7 +114,9 @@ label[for='new-task'] {
 }
 
 /* Task list */
-li {
+.incomplete-mode,
+.edit-mode,
+.completed-mode {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
