@@ -114,9 +114,7 @@ label[for='new-task'] {
 }
 
 /* Task list */
-.incomplete-mode,
-.edit-mode,
-.completed-mode {
+li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
